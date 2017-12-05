@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         persons[3] = new Patient("Larry", "Litman", 42, "male", 427);
         persons[4] = new Patient("david", "Litman", 19, "male", 52771.08);
 
-        //Arrays.sort(persons);
+        Arrays.sort(persons);
         this.printArray(persons);
     }
 
